@@ -98,13 +98,13 @@ sass avoids duplication by nesting styles inside the parent
 tells sass to combine parent selector with nested child selector (refer to parent selector)
 
 ```css
-//scss
+/*scss*/
 .btn {
   &: focus {
 
   }
 }
-//css
+/*css*/
 .btn: focus {
 
 }
